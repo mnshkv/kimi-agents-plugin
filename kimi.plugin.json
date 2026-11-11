@@ -1,0 +1,33 @@
+{
+  "$schema": "https://kimi.com/schemas/kimi.plugin.schema.json",
+  "name": "agents",
+  "version": "1.0.0",
+  "description": "202 specialized subagents and 14 skills ported from wshobson/agents: backend and frontend development, DevOps, QA, security, data engineering, ML ops, multi-agent teams, and more — the entire Claude Code agent catalog in one Kimi Code plugin.",
+  "keywords": [
+    "agents",
+    "subagents",
+    "wshobson",
+    "backend",
+    "frontend",
+    "devops",
+    "security",
+    "testing",
+    "code-review",
+    "kubernetes",
+    "data-engineering",
+    "machine-learning",
+    "multi-agent"
+  ],
+  "author": "Seth Hobson (ported to Kimi Code by mnshkv)",
+  "license": "MIT; port © mnshkv",
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "interface": {
+    "displayName": "Agents (wshobson)",
+    "shortDescription": "202 specialist subagents from the wshobson/agents catalog: backend, DevOps, QA, security, data, ML, and more",
+    "longDescription": "The complete wshobson/agents collection (92 upstream Claude Code plugins, MIT by Seth Hobson) consolidated into one Kimi Code plugin.\n\nWhat you get:\n- 202 specialized subagents in agents/, grouped by source plugin in INDEX.md — backend architects, security auditors, TDD orchestrators, Kubernetes operators, performance engineers, quantitative-trading researchers, multi-agent team roles, and many more.\n- 14 skills in skills/ ported from the 11 upstream plugins that ship no agents (e.g. avoid-ai-writing, hermes-tweet, file-conversion, skill-forge-essentials), including the block-no-verify guard (adapted from a Claude PreToolUse hook to agent self-enforcement plus an optional guard script).\n\nHow to use: ask for a specialist by role or task (\"use the backend architect agent\", \"run a security audit\", \"coordinate a multi-agent team\"), or browse INDEX.md to pick an agent. Agents are routed by their description and whenToUse fields and run through Kimi Code's native subagent support. Model selection is left to Kimi Code — the upstream Claude model tiers were dropped during the port.",
+    "developerName": "Seth Hobson / mnshkv",
+    "hostKind": "local"
+  },
+  "platforms": ["macos", "windows", "linux"]
+}
