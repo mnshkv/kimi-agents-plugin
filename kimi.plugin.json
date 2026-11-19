@@ -1,7 +1,7 @@
 {
   "$schema": "https://kimi.com/schemas/kimi.plugin.schema.json",
   "name": "agents",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "202 specialized subagents and 14 skills ported from wshobson/agents: backend and frontend development, DevOps, QA, security, data engineering, ML ops, multi-agent teams, and more — the entire Claude Code agent catalog in one Kimi Code plugin.",
   "keywords": [
     "agents",
