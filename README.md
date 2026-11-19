@@ -1,12 +1,12 @@
 # Agents (wshobson) — Kimi Code Plugin
 
-**The wshobson/agents collection: 202 specialized subagents and 14 skills, ported from Claude Code to Kimi Code.**
+**The wshobson/agents collection: 199 specialized subagents and 14 skills, ported from Claude Code to Kimi Code.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)](kimi.plugin.json)
 [![Kimi Code](https://img.shields.io/badge/Kimi%20Code-plugin-6C5CE7.svg)](https://github.com/mnshkv/kimi-agents-plugin)
 
-A port of [wshobson/agents](https://github.com/wshobson/agents) (MIT, Seth Hobson) — the largest curated catalog of coding subagents. The upstream repository ships 92 Claude Code plugins covering backend and frontend development, DevOps, QA, security, data, SEO, trading, embedded systems, and more. This plugin consolidates all of them into a single Kimi Code plugin: every agent lives in `agents/`, grouped by its source plugin in [INDEX.md](INDEX.md).
+A port of [wshobson/agents](https://github.com/wshobson/agents) (MIT, Seth Hobson) — the largest curated catalog of coding subagents. The upstream repository ships 93 Claude Code plugins covering backend and frontend development, DevOps, QA, security, data, SEO, trading, embedded systems, and more. This plugin consolidates all of them into a single Kimi Code plugin: every agent lives in `agents/`, grouped by its source plugin in [INDEX.md](INDEX.md).
 
 ## Why
 
@@ -16,7 +16,7 @@ Instead of installing dozens of single-purpose plugins, you install one plugin a
 
 | What | Count | Where |
 |---|---|---|
-| Specialized subagents | 202 | [`agents/`](agents/) — full list in [INDEX.md](INDEX.md) |
+| Specialized subagents | 199 | [`agents/`](agents/) — full list in [INDEX.md](INDEX.md) |
 | Source plugins (categories) | 82 with agents | [INDEX.md](INDEX.md) |
 | Standalone skills (from agent-less plugins) | 14 | [`skills/`](skills/) |
 | Platforms | macOS, Windows, Linux | — |
